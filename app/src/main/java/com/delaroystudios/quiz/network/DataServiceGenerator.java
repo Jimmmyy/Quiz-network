@@ -17,7 +17,7 @@ public class DataServiceGenerator {
     public static <S> S createService(Class<S> serviceClass) {
         Retrofit.Builder builder = new Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
-                .baseUrl("https://jsoneditoronline.org/");
+                .baseUrl("http://www.json-generator.com/");
 
         OkHttpClient.Builder httpClient = new OkHttpClient.Builder()
                 .readTimeout(90, TimeUnit.SECONDS)

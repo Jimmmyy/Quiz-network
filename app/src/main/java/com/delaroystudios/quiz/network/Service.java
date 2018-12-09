@@ -13,7 +13,7 @@ import retrofit2.http.GET;
 
 public interface Service {
 
-    @GET("?id=75cb8be9edf846848d69ca4f0bdc6d51&fbclid=IwAR3XCcOwI5dUrS8e65Ny0nqObhF9ZWk1Ovttla0OVA1Pcizss2lfxvkkwVA")
+    @GET("api/json/get/cfZiteCtvm?indent=2")
     Call<List<QuestionsModel>> getQuestions();
 
 }
